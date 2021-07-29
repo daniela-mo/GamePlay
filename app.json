@@ -1,19 +1,22 @@
 {
   "expo": {
-    "name": "GamePlay",
-    "slug": "GamePlay",
+    "name": "gameplay",
+    "slug": "gameplay",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "scheme": "gameplay",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0d133e"
+      "backgroundColor": "#0D133E"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
